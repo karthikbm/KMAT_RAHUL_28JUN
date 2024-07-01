@@ -45,27 +45,14 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">kmat</value>
-    <value name="createdDate">1719837096726</value>
-    <value name="lastModifiedDate">1719837096726</value>
+    <value name="lastModifiedBy">kmat</value>
+    <value name="lastModifiedDate">1719843729188</value>
     <value name="displayName">AWS_Listbuckets</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">PACKAGES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">AWS_KMAT</value>
-          <value name="groupName">AWS_KMAT;1.0</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">AWS_CCS:ListBuckets</value>
-          <value name="serviceName">AWS_CCS:ListBuckets</value>
-          <value name="displayName">ListBuckets</value>
-        </record>
-        <null name="outputMapSet"/>
-        <null name="mapSet"/>
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
