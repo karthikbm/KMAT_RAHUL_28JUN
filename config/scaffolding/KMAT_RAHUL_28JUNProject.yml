@@ -7,11 +7,6 @@ packages:
   gitUrl: https://github.com/karthikbm/KMAT_RAHUL_28JUNProject
   gitUsername: karthikbm
   gitBranch: main
-- name: OriginKMAT_Jun2024
-  gitServerName: Karthik
-  gitUrl: https://github.com/karthikbm
-  gitUsername: karthikbm
-  gitBranch: main
 - name: KMATWorkdayTest
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
@@ -25,6 +20,11 @@ packages:
   gitBranch: main
 - name: AWS_KMAT
   version: "1.0"
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
+- name: OriginKMAT_Jun2024
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
