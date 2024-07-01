@@ -23,7 +23,23 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: TestWorkdayConnector
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+services:
+- serviceName: project.kmat_rahul_28jun.integrations:workdaykmattest
+  packages:
+  - name: KMAT_RAHUL_28JUNProject
+    version: "1.0"
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+- serviceName: ccs:Get_Organizations
+  packages:
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
