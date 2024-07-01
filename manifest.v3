@@ -9,15 +9,16 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="TestWorkdayConnector">1.0</value>
+    <value name="AWS_KMAT">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">5</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">28-06-2024 10:46:06 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-01T11:18:11.661331258Z</value>
+  <value name="lastUpdated">2024-07-01T12:31:36.759347848Z</value>
 </Values>
