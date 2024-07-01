@@ -19,6 +19,7 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: OriginKMAT_Jun2024
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
@@ -50,6 +51,10 @@ services:
     version: 10.7.0.0.11
   - name: AWS_KMAT
     version: "1.0"
+  - name: OriginKMAT_Jun2024
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.29
 - serviceName: AWS_CCS:ListBuckets
   packages:
   - name: AWS_KMAT
