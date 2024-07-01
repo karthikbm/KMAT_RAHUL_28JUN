@@ -18,12 +18,6 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
-- name: AWS_KMAT
-  version: "1.0"
-  gitServerName: Karthik
-  gitUrl: https://github.com/karthikbm
-  gitUsername: karthikbm
-  gitBranch: main
 - name: OriginKMAT_Jun2024
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
