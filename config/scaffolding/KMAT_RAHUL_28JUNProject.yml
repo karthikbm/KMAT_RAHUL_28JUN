@@ -24,6 +24,11 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+- name: TestAWSS3Connr
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
 services:
 - serviceName: project.kmat_rahul_28jun.integrations:workdaykmattest
   packages:
