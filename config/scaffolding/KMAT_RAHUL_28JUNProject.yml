@@ -25,6 +25,7 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: TestAWSS3Connr
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
@@ -60,9 +61,15 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 10.7.0.0.29
+  - name: TestAWSS3Connr
+    version: "1.0"
 - serviceName: AWS_CCS:ListBuckets
   packages:
   - name: AWS_KMAT
     version: "1.0"
   - name: WmAmazonS3Provider
     version: 10.7.0.0.9
+- serviceName: CCS:ListBuckets
+  packages:
+  - name: TestAWSS3Connr
+    version: "1.0"
