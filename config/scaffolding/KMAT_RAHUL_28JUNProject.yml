@@ -24,6 +24,7 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: AWS_KMAT
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
@@ -43,3 +44,21 @@ services:
     version: "1.0"
   - name: WmWorkdayProvider
     version: 10.7.0.0.11
+- serviceName: project.kmat_rahul_28jun.integrations:AWS_Listbuckets
+  packages:
+  - name: KMAT_RAHUL_28JUNProject
+    version: "1.0"
+  - name: WmAmazonS3Provider
+    version: 10.7.0.0.9
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+  - name: AWS_KMAT
+    version: "1.0"
+- serviceName: AWS_CCS:ListBuckets
+  packages:
+  - name: AWS_KMAT
+    version: "1.0"
+  - name: WmAmazonS3Provider
+    version: 10.7.0.0.9
