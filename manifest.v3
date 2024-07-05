@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="TestWorkdayConnector">1.0</value>
     <value name="OriginKMAT_Jun2024">1.0</value>
     <value name="TestAWSS3Connr">1.0</value>
     <value name="SalesforceRESTKMAT">1.0</value>
@@ -16,11 +15,11 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">30</value>
+  <value name="build">31</value>
   <null name="description"/>
   <value name="created_date">28-06-2024 10:46:06 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-02T05:13:52.890448299Z</value>
+  <value name="lastUpdated">2024-07-05T06:08:04.017206786Z</value>
 </Values>
